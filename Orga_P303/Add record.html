@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <style>
+    body {
+        background-image: url(covidbanner.jpg);
+        background-repeat:no-repeat ;
+        background-size: cover;
+        height: 450px;
+    }
+
+    /* Style the form */
+    #sign-up-form {
+      width: 300px;
+      height: 420px;
+      margin: 5% auto;
+      padding: 30px;
+      border: 1px solid #ccc;
+      background-color: rgba(255, 255, 255, 0.912);
+      color: rgb(0, 0, 0);
+      font-family: Italic, bold, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5), -10px -5px 5px rgba(255, 255, 255, 0.25);
+      font-size: 20px;
+      border-radius: 10px;
+    }
+
+    /* Style the input fields */
+    input[type="text"], input[type="email"], input[type="password"], input [type= "text"], input [type=fname]  {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 10px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+
+    /* Style the submit button */
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      border-radius: 10px;
+      font-size: 20px;
+    }
+
+
+    /* Style the error message */
+    
+  </style>
+</head>
+<body>
+  <form id="sign-up-form" action="">
+    <label for="fullname">Full Name:</label>
+    <input type="text" id="fullname" name="fullname" required>
+
+    <label for="address">Address:</label>
+    <input type="text" id="address" name="ad" required>
+
+    <label for="Contact">Contact Number:</label>
+    <input type="text" id="contact" name="Contactnum" required>
+
+    <label for="Password">Body Temperature:</label>
+    <input type="text" id="bodytemp" name="bodytemp" required>
+   
+
+    <input type="submit" value="Submit">
+
+    
+
+
+  </form>
+</body>
+</html>

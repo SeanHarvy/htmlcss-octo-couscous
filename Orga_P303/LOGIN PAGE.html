@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+
+    body {
+        background-image: url(COVID.jpg);
+        background-repeat:no-repeat ;
+        background-size: cover;
+    }
+  
+    #login-form {
+      width: 300px;
+      margin: 10% auto;
+      padding: 30px;
+      border: 1px solid #ccc;
+      background-color: rgba(255, 255, 255, 0.912);
+      color: rgb(0, 0, 0);
+      font-family: Italic, bold, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5), -10px -5px 5px rgba(255, 255, 255, 0.25);
+      font-size: 20px;
+      border-radius: 10px;
+    }
+
+    
+    input[type="text"], input[type="password"] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+
+    
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      border-radius: 10px;
+    }
+
+   
+    .remember-me {
+      float: left;
+      margin-left:5px;
+    }
+
+   
+    .sign-up {
+      float: right;
+    }
+
+    .sign-up:hover {
+    transform: scale(1.2);  
+  }
+
+    
+
+   
+    .clearfix::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+  </style>
+</head>
+<body>
+  <form id="login-form" action="">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username">
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password">
+
+    <div class="clearfix">
+      <input type="checkbox" class="remember-me" id="remember-me" name="remember-me">
+      <label for="remember-me">Remember me</label>
+
+      <a href="#" class="sign-up">Sign up</a>
+    </div>
+
+    <input type="submit" value="Log in">
+
+    
+  </form>
+</body>
+</html>
